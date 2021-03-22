@@ -1,1 +1,1 @@
-export default function validateAndParseAddress(address: string): string;
+export default function validateAndParseAddress(address: string): string
