@@ -64,7 +64,7 @@ export const WETH9: { [chainId in ChainId]: Token } = {
     'WETH9',
     'Wrapped Ether'
   ),
-[ChainId.TESTNET]: new Token(
+  [ChainId.TESTNET]: new Token(
     ChainId.TESTNET,
     '0x73DcdfeBe2b1Db8FAe6f0A5AA0f35C3BaDa6811A',
     18,
