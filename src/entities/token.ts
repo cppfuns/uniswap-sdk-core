@@ -80,5 +80,11 @@ export const WETH9: { [chainId in ChainId]: Token } = {
   ),
   [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6', 18, 'WETH9', 'Wrapped Ether'),
   [ChainId.KOVAN]: new Token(ChainId.KOVAN, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH9', 'Wrapped Ether'),
-  [ChainId.FCHAIN]: new Token(ChainId.FCHAIN, '0x73DcdfeBe2b1Db8FAe6f0A5AA0f35C3BaDa6811A', 18, 'WETH9', 'Wrapped Ether')
+  [ChainId.FCHAIN]: new Token(
+    ChainId.FCHAIN,
+    '0x73DcdfeBe2b1Db8FAe6f0A5AA0f35C3BaDa6811A',
+    18,
+    'WETH9',
+    'Wrapped Ether'
+  )
 }
